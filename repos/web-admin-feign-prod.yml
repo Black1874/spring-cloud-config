@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hello-spring-cloud-config-client
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: web-admin-feign
+      label: master
+      profile: prod
